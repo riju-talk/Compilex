@@ -18,16 +18,15 @@ const { Option } = Select;
 
 // Language configurations
 const languageExtensions: { [key: string]: string } = {
-  javascript: "javascript",
   python: "python",
+  javascript: "javascript",
   java: "java",
   cpp: "cpp",
-  html: "html",
-  css: "css",
+  c: "cpp",
   php: "php",
   rust: "rust",
   go: "go",
-  clang: "cpp" // Use C++ for Clang
+  // Use C++ for Clang
 };
 
 const languageTemplates: { [key: string]: string } = {
