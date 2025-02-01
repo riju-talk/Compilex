@@ -11,9 +11,11 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
     "@remix-run/node": "^2.15.2",
     "@remix-run/react": "^2.15.2",
     "@remix-run/serve": "^2.15.2",
+    "@uiw/react-codemirror": "^4.23.7",
     "antd": "^5.23.1",
     "isbot": "^4.1.0",
     "react": "^18.2.0",

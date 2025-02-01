@@ -64,8 +64,9 @@ export function LayoutWrapper({ children }: { children: React.ReactNode }) {
                 style={{
                   padding: 24,
                   margin: 0,
-                  minHeight: "calc(100vh - 64px)", // Subtract Header height (64px)
-                  overflow: "auto",
+                  height: "calc(100vh - 64px)", // Subtract Header height (64px)
+                  overflowY: "auto", // Enable vertical scrolling
+                  overflowX: "auto", // Enable horizontal scrolling
                 }}
               >
                 {children}
